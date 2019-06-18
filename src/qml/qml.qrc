@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>pages/LoginPage.qml</file>
+        <file>pages/LoginPageForm.ui.qml</file>
+        <file>pages/ErrorDBConnPage.qml</file>
+        <file>pages/ErrorDBConnPageForm.ui.qml</file>
+        <file>pages/LoadingPage.qml</file>
+        <file>pages/LoadingPageForm.ui.qml</file>
+        <file>pages/ChooseNumberOfItems.qml</file>
+        <file>pages/ChooseNumberOfItemsForm.ui.qml</file>
+        <file>pages/ItemSerialNumber.qml</file>
+        <file>pages/ItemSerialNumberForm.ui.qml</file>
+        <file>pages/ChooseTypeOfItem.qml</file>
+        <file>pages/ChooseTypeOfItemForm.ui.qml</file>
+        <file>resources/db_error.jpg</file>
+        <file>pages/MainProcessPage.qml</file>
+        <file>pages/MainProcessPageForm.ui.qml</file>
+        <file>pages/FinalPage.qml</file>
+        <file>pages/FinalPageForm.ui.qml</file>
+        <file>pages/PressBtn.qml</file>
+        <file>pages/PressBtnForm.ui.qml</file>
+        <file>pages/ControlErrorPage.qml</file>
+        <file>pages/ControlErrorPageForm.ui.qml</file>
+        <file>resources/error-large.jpg</file>
+        <file>resources/12_emergency.png</file>
+        <file>pages/EmergencyPage.qml</file>
+        <file>pages/EmergencyPageForm.ui.qml</file>
+        <file>pages/CommunicationProblem.qml</file>
+        <file>pages/CommunicationProblemForm.ui.qml</file>
+        <file>pages/ManualKey.qml</file>
+        <file>pages/ManualKeyForm.ui.qml</file>
+        <file>pages/SecurityPageForm.ui.qml</file>
+        <file>pages/SecurityPage.qml</file>
+        <file>pages/CamErrorPageForm.ui.qml</file>
+        <file>pages/CamErrorPage.qml</file>
+        <file>pages/DefaultPosPage.qml</file>
+        <file>pages/DefaultPosPageForm.ui.qml</file>
+    </qresource>
+</RCC>
