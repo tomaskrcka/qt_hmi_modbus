@@ -16,10 +16,10 @@ Settings::Settings() : settings_(QString("config.ini"), QSettings::IniFormat)
 
 void Settings::ReadConfig() {
     db_enabled_ = settings_.contains("db/hostname");
-    username_ = settings_.value("db/username", "elkamet");
-    password_ = settings_.value("db/password", "elkamet");
+    username_ = settings_.value("db/username", "test");
+    password_ = settings_.value("db/password", "test");
     hostname_ = settings_.value("db/hostname", "localhost");
-    dbname_ = settings_.value("db/dbname", "elkamet");
+    dbname_ = settings_.value("db/dbname", "test");
     port_ = settings_.value("db/port", 27017);
     restapi_ = settings_.value("server/url", "http://127.0.0.1");
     camera_url_ = settings_.value("cam/url", "http://127.0.0.1:8080/cgi-bin/net_video.cgi?channel=1");
